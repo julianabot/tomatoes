@@ -1,0 +1,43 @@
+name: tomatoes
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  page_transition: ^2.0.2
+  font_awesome_flutter: ^9.2.0
+  slide_to_confirm: ^1.1.0
+  circular_countdown_timer: ^0.2.0
+  rflutter_alert: ^2.0.4
+  audioplayers: ^0.20.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - audio/
+
+  fonts:
+    - family: Montserrat-Regular
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+
+    - family: Montserrat-Bold
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
